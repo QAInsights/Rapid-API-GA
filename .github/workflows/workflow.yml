@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Execute RapidAPI API Tests
     steps:
-    - name: Execute Tests
+    - name: Execute Test
       id: tstExec
       uses: RapidAPI/gh-api-testing-trigger@master
       with:
