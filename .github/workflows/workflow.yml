@@ -9,7 +9,7 @@ jobs:
       id: tstExec
       uses: RapidAPI/gh-api-testing-trigger@master
       with:
-        test: 'test_7bb94dc8-a7bf-4679-841d-3e0f7b429a51'
+        test: 'test_dc441db8-b63e-452d-aa98-8239526027d7'
         location: 'AWS-US-WEST-2'
         environment: 'ENV_ID(OPTIONAL)'
     - name: Show Results
